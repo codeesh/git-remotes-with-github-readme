@@ -50,7 +50,7 @@ We use this command when we want to send some code from the local repository to 
 `git push` takes two arguments. The first is the name of the remote repo. The second is the name of the remote branch you want to send code to. To find the names, run `git branch -r`. 
 
 ```bash
-git push origin master
+git push destination  master
 ``` 
 
 That is the explicit way to push. You can also implicitly push your code by running:
@@ -70,6 +70,6 @@ As we collaborate with other people, inevitably they will push some code. The on
 git pull
 ``` 
 
-Again, we can also do this explicitly if need be by adding the remote name and branch as arguments: `git pull origin master`.
+Again, we can also do this explicitly if need be by adding the remote name and branch as arguments: `git pull destination  master`.
 
 [For more details, check out the Github guides on pulling](https://help.github.com/articles/fetching-a-remote/)
